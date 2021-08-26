@@ -22,7 +22,11 @@ export default () => {
             }
         }
         getCategories();
-    }, [])
+    }, []);
+
+    useEffect(() => {
+
+    }, [activeCategory]);
 
     return (
         <Container>
